@@ -45,6 +45,17 @@ El repositorio queda preparado con GitHub Actions para CI y autoversionado.
 
 El modulo se publica desde `github.com/DLabsPeru/common`. Los tags anteriores a la migracion de namespace conservan el historial, pero los consumidores deben usar una version que ya declare este nuevo module path.
 
+### Migracion desde Destiny-Peru
+
+Desde la primera version publicada bajo el nuevo module path, reemplaza los imports `github.com/Destiny-Peru/common/...` por `github.com/DLabsPeru/common/...` y actualiza la dependencia:
+
+```bash
+go get github.com/DLabsPeru/common@latest
+go mod tidy
+```
+
+No mantengas ambos module paths dentro del mismo servicio, porque Go los considera dependencias diferentes aunque provengan del mismo código fuente.
+
 ### Convencion de commits
 
 Usa Conventional Commits para que el versionado sea automatico:
