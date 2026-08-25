@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/Destiny-Peru/common/response"
+	"github.com/DLabsPeru/common/response"
 )
 
 type Checker interface {

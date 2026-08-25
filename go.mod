@@ -1,4 +1,4 @@
-module github.com/Destiny-Peru/common
+module github.com/DLabsPeru/common
 
 go 1.25.0
 

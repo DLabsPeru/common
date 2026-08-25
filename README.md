@@ -1,6 +1,10 @@
 # common
 
-Modulo compartido para concentrar piezas reutilizables entre servicios Go de Destiny Peru.
+Modulo compartido para concentrar piezas reutilizables entre servicios Go de DLabsPeru.
+
+```bash
+go get github.com/DLabsPeru/common@latest
+```
 
 Incluye:
 
@@ -36,8 +40,10 @@ La idea es que cada proyecto defina su propia estructura de configuracion y reut
 
 El repositorio queda preparado con GitHub Actions para CI y autoversionado.
 
-- `CI`: ejecuta `go test ./...` en cada `push` a `main` y en cada `pull_request`
+- `CI`: verifica formato, ejecuta `go vet`, pruebas con detector de carreras y compila todos los paquetes en cada `pull_request` hacia `main`
 - `Release Please`: calcula la siguiente version, crea o actualiza el PR de release y publica el tag/release cuando ese PR se fusiona
+
+El modulo se publica desde `github.com/DLabsPeru/common`. Los tags anteriores a la migracion de namespace conservan el historial, pero los consumidores deben usar una version que ya declare este nuevo module path.
 
 ### Convencion de commits
 
