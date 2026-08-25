@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/DLabsPeru/common/compare/v1.2.0...v1.3.0) (2026-08-25)
+
+
+### Features
+
+* publish common module under DLabsPeru namespace ([65070e9](https://github.com/DLabsPeru/common/commit/65070e9028ccc2a25ac2d003849a08048c96c5b5))
+* publish common module under DLabsPeru namespace ([217af3f](https://github.com/DLabsPeru/common/commit/217af3f0dbe2060836f9de5a54d436ad0221117a))
+
 ## [1.2.0](https://github.com/DLabsPeru/common/compare/v1.1.0...v1.2.0) (2026-06-21)
 
 
