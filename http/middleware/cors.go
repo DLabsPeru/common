@@ -6,7 +6,7 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 
-	"github.com/Destiny-Peru/common/config"
+	"github.com/DLabsPeru/common/config"
 )
 
 func CORS(cfg config.CORS) gin.HandlerFunc {

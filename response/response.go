@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/Destiny-Peru/common/http/middleware"
+	"github.com/DLabsPeru/common/http/middleware"
 )
 
 type Payload struct {
